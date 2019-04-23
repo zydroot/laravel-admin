@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/app/vendor/kuange/qqconnect" />
+      <path value="$PROJECT_DIR$/app/vendor/topthink/think-captcha" />
+      <path value="$PROJECT_DIR$/app/vendor/topthink/think-installer" />
+      <path value="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/app/vendor/composer" />
+      <path value="$PROJECT_DIR$/app/vendor/tp5er/tp5-databackup" />
+    </include_path>
+  </component>
+</project>
