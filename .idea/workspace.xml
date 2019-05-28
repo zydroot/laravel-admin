@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f45949fd-0f58-42ba-8ac4-0e6a7c676960" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/cltphp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cltphp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
@@ -78,6 +79,19 @@
       <change beforePath="$PROJECT_DIR$/app2/vendor/phpmailer/phpmailer/src/PHPMailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app2/vendor/phpmailer/phpmailer/src/PHPMailer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app2/vendor/phpmailer/phpmailer/src/POP3.php" beforeDir="false" afterPath="$PROJECT_DIR$/app2/vendor/phpmailer/phpmailer/src/POP3.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app2/vendor/phpmailer/phpmailer/src/SMTP.php" beforeDir="false" afterPath="$PROJECT_DIR$/app2/vendor/phpmailer/phpmailer/src/SMTP.php" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/php/mysql/config/my.cnf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/php/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/console/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/php/console/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/console/Dockerfile--" beforeDir="false" afterPath="$PROJECT_DIR$/php/console/Dockerfile--" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/console/sources.list" beforeDir="false" afterPath="$PROJECT_DIR$/php/console/sources.list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/php/php.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/sites.apache.conf" beforeDir="false" afterPath="$PROJECT_DIR$/php/sites.apache.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/sources.list" beforeDir="false" afterPath="$PROJECT_DIR$/php/sources.list" afterDir="false" />
+>>>>>>> 1dc20d8cec2fd5ba23d3f79b76c333db45c66314
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,9 +107,14 @@
       <option name="command" value="bash" />
       <option name="imageId" value="cltphp_console" />
     </ExecCommand>
+    <ExecCommand>
+      <option name="command" value="bash" />
+      <option name="imageId" value="mysql:5.7" />
+    </ExecCommand>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app/User.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,10 +129,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="850">
               <caret line="50" column="25" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="25" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+>>>>>>> 1dc20d8cec2fd5ba23d3f79b76c333db45c66314
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/app/Admin/Controllers/MoviesController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -143,6 +170,13 @@
               <folding>
                 <element signature="e#41#77#0#PHP" expanded="true" />
               </folding>
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/mysql/config/my.cnf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+>>>>>>> 1dc20d8cec2fd5ba23d3f79b76c333db45c66314
             </state>
           </provider>
         </entry>
@@ -157,16 +191,21 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/app" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/config/database.php" />
         <option value="$PROJECT_DIR$/app/application/home/view/index_index.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/app/Models/Movie.php" />
         <option value="$PROJECT_DIR$/app/app/Admin/routes.php" />
         <option value="$PROJECT_DIR$/app/app/Admin/Controllers/MoviesController.php" />
+=======
+        <option value="$PROJECT_DIR$/php/mysql/config/my.cnf" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+>>>>>>> 1dc20d8cec2fd5ba23d3f79b76c333db45c66314
       </list>
     </option>
   </component>
@@ -263,10 +302,18 @@
       <path value="$PROJECT_DIR$/app/vendor/caouecs/laravel-lang" />
     </include_path>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="1524" />
     <option name="height" value="1047" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="49" />
+    <option name="y" value="56" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
+>>>>>>> 1dc20d8cec2fd5ba23d3f79b76c333db45c66314
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -278,6 +325,7 @@
         <subPane>
           <expand>
             <path>
+<<<<<<< HEAD
               <item name="cltphp" type="b2602c69:ProjectViewProjectNode" />
               <item name="cltphp" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -320,6 +368,28 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Models" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="cltphp_cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cltphp_cms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cltphp_cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cltphp_cms" type="462c0819:PsiDirectoryNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cltphp_cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cltphp_cms" type="462c0819:PsiDirectoryNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cltphp_cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cltphp_cms" type="462c0819:PsiDirectoryNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 1dc20d8cec2fd5ba23d3f79b76c333db45c66314
             </path>
           </expand>
           <select />
@@ -357,6 +427,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556008414873</updated>
+<<<<<<< HEAD
       <workItem from="1556008416223" duration="3182000" />
       <workItem from="1556244623382" duration="627000" />
       <workItem from="1556248957049" duration="333000" />
@@ -365,10 +436,15 @@
       <workItem from="1558864190890" duration="599000" />
       <workItem from="1558941894561" duration="5675000" />
       <workItem from="1559004230208" duration="973000" />
+=======
+      <workItem from="1556008416223" duration="2563000" />
+      <workItem from="1556113942108" duration="3968000" />
+>>>>>>> 1dc20d8cec2fd5ba23d3f79b76c333db45c66314
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="13211000" />
   </component>
   <component name="ToolWindowManager">
@@ -377,12 +453,25 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1652452" />
+=======
+    <option name="totallyTimeSpent" value="6531000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20121029" />
+>>>>>>> 1dc20d8cec2fd5ba23d3f79b76c333db45c66314
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Docker" order="4" visible="true" weight="0.29718006" />
+=======
+      <window_info active="true" anchor="bottom" id="Docker" order="4" visible="true" weight="0.3295082" />
+>>>>>>> 1dc20d8cec2fd5ba23d3f79b76c333db45c66314
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="bottom" id="Run" order="7" />
@@ -402,6 +491,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/数据库更新/5.7.3到5.7.4.sql" />
     <entry file="file://$PROJECT_DIR$/app/cltphp_db.sql" />
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -505,6 +595,28 @@
           <folding>
             <element signature="e#43#79#0#PHP" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/app/config/database.php" />
+    <entry file="file://$PROJECT_DIR$/app/public/index.php" />
+    <entry file="file://$PROJECT_DIR$/app/route/route.php" />
+    <entry file="file://$PROJECT_DIR$/app/plugins/msg/changyan/config.php" />
+    <entry file="file://$PROJECT_DIR$/app/config/app.php" />
+    <entry file="file://$PROJECT_DIR$/app/application/home/view/index_index.html" />
+    <entry file="file://$PROJECT_DIR$/app/application/home/view/common_head.html" />
+    <entry file="file://$PROJECT_DIR$/app/application/home/controller/Index.php" />
+    <entry file="file://$PROJECT_DIR$/app/extend/clt/Lunar.php" />
+    <entry file="file://$PROJECT_DIR$/php/mysql/config/my.cnf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+>>>>>>> 1dc20d8cec2fd5ba23d3f79b76c333db45c66314
         </state>
       </provider>
     </entry>
