@@ -13,4 +13,6 @@ Route::group([
     $router->get('/', 'HomeController@index')->name('admin.home');
     $router->get('/movies', 'MoviesController@index')->name('movies.index');
     $router->get('/movies/create', 'MoviesController@create')->name('movies.create');
+    $router->post('/movies/create', 'MoviesController@create')->name('movies.create');
+    $router->put('/movies/{movie}', 'MoviesController@edit')->name('movies.edit');
 });

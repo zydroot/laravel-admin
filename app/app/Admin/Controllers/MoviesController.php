@@ -45,8 +45,8 @@ class MoviesController extends Controller
         $grid = new Grid(new Movie());
 
         $grid->id('ID')->sortable();
-        $grid->title('标题');
-        $grid->describe('描述');
+        $grid->column('title')->setAttributes(['style' => 'color:red;']);
+        $grid->describe('描述')->editable();
         $grid->director('用户')->display(function($userid){
             return User::find($userid)->name;
         });
@@ -54,7 +54,10 @@ class MoviesController extends Controller
             return $released ? '是' : '否';
         });
         $grid->created_at('Created at');
-        $grid->updated_at('Updated at');
+        $grid->actions(function($actions){
+            $actions->disableView();
+            $actions->prepend('<a href=""><i class="fa fa-paper-plane">A</i></a>');
+        });
 
         return $grid;
     }
@@ -92,5 +95,21 @@ class MoviesController extends Controller
         $form->display('updated_at', 'Updated At');
 
         return $form;
+    }
+
+
+    /**
+     * Edit interface.
+     *
+     * @param mixed   $id
+     * @param Content $content
+     * @return Content
+     */
+    public function edit($id, Content $content)
+    {
+        return $content
+            ->header('编辑')
+            ->description('description')
+            ->body($this->form()->edit($id));
     }
 }
