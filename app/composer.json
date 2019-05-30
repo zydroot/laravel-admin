@@ -12,6 +12,7 @@
         "caouecs/laravel-lang": "^4.0",
         "encore/laravel-admin": "^1.6",
         "fideloper/proxy": "^4.0",
+        "houdunwang/arr": "^2.0",
         "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0"
     },
