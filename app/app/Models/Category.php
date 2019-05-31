@@ -11,7 +11,7 @@ class Category extends Model
 {
     use ModelTree, AdminBuilder;
 
-    protected $fillable = ['pid', 'name'];
+    protected $fillable = ['parent_id', 'title', 'order'];
 
     public function __construct(array $attributes = [])
     {
@@ -22,17 +22,5 @@ class Category extends Model
         $this->setTitleColumn('name');*/
     }
 
-    public static function getAllCate(){
-        $result = Category::select('id', 'pid', 'name')->get()->toArray();
-        $sort = new Arr();
-        $sort_result = $sort->channelList($result, 0, " - ", 'id');
 
-        $array = [];
-        foreach ($sort_result as $item){
-
-            $array[$item['id']] = $item['_html'].$item['name'];
-
-        }
-        return $array;
-    }
 }

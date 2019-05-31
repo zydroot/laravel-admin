@@ -17,7 +17,10 @@ Route::group([
     $router->put('/movies/{movie}', 'MoviesController@edit')->name('movies.edit');
 
 
-    $router->get('/categories', 'CategoriesController@index')->name('categories.index');
-    $router->get('/categories/create', 'CategoriesController@create')->name('categories.create');
-    $router->post('/categories', 'CategoriesController@store')->name('categories.store');
+    $router->resource('categories', CategoriesController::class);
+
+    $router->resource('products', ProductsController::class);
+    //$router->get('/categories', 'CategoriesController@index')->name('categories.index');
+    //$router->get('/categories/create', 'CategoriesController@create')->name('categories.create');
+    //$router->post('/categories', 'CategoriesController@store')->name('categories.store');
 });
